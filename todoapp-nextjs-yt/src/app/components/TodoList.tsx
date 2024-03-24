@@ -6,8 +6,8 @@ const TodoList = () => {
       <li className="flex justify-between p-4 bg-white border-l-4 border-blue-500 rounded shadow">
         <span>散歩</span>
         <div>
-          <button>edit</button>
-          <button>Delete</button>
+          <button className="text-green-500 mr-3">edit</button>
+          <button className="text-red-500">Delete</button>
         </div>
       </li>
       TodoList
