@@ -10,10 +10,10 @@ export default function Home() {
       </h1>
       <div className="w-full max-w-x1 mt-5">
         <div className="w-full px-8 py-6 bg-white shadow-md rounded-1g">
-        </AddTask>
-      </TodoList>
-    </div>
-    </div >
-  </main >
+          <AddTask />
+          <TodoList />
+        </div>
+      </div >
+    </main >
   );
 }
