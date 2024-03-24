@@ -2,7 +2,7 @@
 
 import { addTodo } from "@/api";
 import React, { ChangeEvent, FormEvent, useState } from "react";
-import {v4 as uuidv4} from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 const AddTask = () => {
 
@@ -20,7 +20,7 @@ const AddTask = () => {
     <form className="mb-4 space-y-3" onSubmit={handleSubmit}>
       <input
         type="text"
-        className="w-full border px-4 py-2 rounded-1g focus:outline-none focus:border-blue-400"
+        className="w-full border px-4 py-2 rounded-lg focus:outline-none focus:border-blue-400"
         onChange={(e: ChangeEvent<HTMLInputElement>) => setTaskTitle(e.target.value)
         }
         value={taskTitle}
