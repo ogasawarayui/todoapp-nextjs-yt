@@ -1,6 +1,10 @@
 import React from "react";
 
-const Todo = () => {
+interface TodoProps {
+  todo: Task;
+}
+
+const Todo = ({todo}: TodoProps) => {
   return (
     <li
     key={todo.id}
